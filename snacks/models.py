@@ -6,5 +6,5 @@ class Snack(models.Model):
     
     name = models.CharField(max_length=256)
     rating = models.ImageField(default=0)
-    reviewer = models.ForeignKey(get_user_model(), models.CASCADE)
+    reviewer = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
     

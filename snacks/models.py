@@ -8,3 +8,5 @@ class Snack(models.Model):
     description = models.TextField(max_length=250)
     purchaser = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
     
+    def __str__(self):
+        return self.name

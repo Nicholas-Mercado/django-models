@@ -1,7 +1,7 @@
 # from django.shortcuts import render
 from django.views.generic import ListView
 
-from snacks.models import Snack
+from .models import Snack
 # Create your views here.
 
 class SnackListView(ListView):

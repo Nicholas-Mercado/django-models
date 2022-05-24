@@ -2,7 +2,6 @@
 
 {% block content %}
     {% for snack in object_list %}
-    <p>Snack Name: {{ snack.name}}</p>
-    <p>{{ snack.description}}</p>
+    <p>{{ snack.name}}</p>
     {% endfor %}
 {% endblock content %}

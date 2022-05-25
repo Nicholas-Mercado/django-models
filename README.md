@@ -16,4 +16,4 @@ python manage.py test
 
 Any tests of note?
 
-[Test found here](django_models/snacks/tests.py)
+[Test found here](snacks/tests.py)
